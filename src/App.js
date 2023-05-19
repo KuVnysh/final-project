@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route, Switch, Redirect, Routes} from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import ABC from './Components/ABC';
+import Numbers from './Components/Numbers';
+import Colors from './Components/Colors';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Routes>
+        {/* <Redirect from='/Home' to='/Register' /> */}
+          <Route exact path='/' component={Home}>
+            <Home />
+          </Route>
+
+          <Route exact path="/ABC" component={ABC}>
+            <ABC />
+            </Route>
+
+          <Route exact path="/Numbers" component={Numbers}>
+          <Numbers />
+          </Route>
+
+          <Route exact path="/Colors" component={Colors}>
+          <Colors />
+          </Route>
+          
+          </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
