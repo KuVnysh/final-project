@@ -44,55 +44,224 @@ import Э from "../content/Э.jpg"
 import Ю from "../content/Ю.jpg"
 import Я from "../content/Я.jpg"
 import AS from "../content/AS.mp3"
+import A1 from "../content/A1.mp3"
+import B from "../content/Б.mp3"
+import V from "../content/В.mp3"
+import G from "../content/Г.mp3"
+import G1 from "../content/Г1.mp3"
+import D from "../content/Д.mp3"
+import E from "../content/Е.mp3"
+import E1 from "../content/Ё.mp3"
+import ZH from "../content/Ж.mp3"
+import Z from "../content/З.mp3"
+import I from "../content/И.mp3"
+import I1 from "../content/Й.mp3"
+import K from "../content/К.mp3"
+import K1 from "../content/К1.mp3"
+import L from "../content/Л.mp3"
+import M from "../content/М.mp3"
+import N from "../content/Н.mp3"
+import N1 from "../content/Н1.m4a"
+import O from "../content/О.m4a"
+import O1 from "../content/О1.m4a"
+import P from "../content/П.m4a"
+import R from "../content/Р.m4a"
+import S from "../content/С.m4a"
+import T from "../content/Т.m4a"
+import U from "../content/У.m4a"
+import U1 from "../content/У1.m4a"
+import U2 from "../content/У2.m4a"
+import F from "../content/Ф.m4a"
+import H1 from "../content/Х.m4a"
+import C from "../content/Ц.m4a"
+import CH from "../content/Ч.m4a"
+import SH from "../content/Ш.m4a"
+import SH1 from "../content/Щ.m4a"
+import H2 from "../content/Х1.m4a"
+import TvZn from "../content/Ъ.m4a"
+import Y from "../content/Ы.m4a"
+import Y1 from "../content/Ы1.m4a"
+import MgZn from "../content/Ь.m4a"
+import AA from "../content/Э.m4a"
+import YU from "../content/Ю.m4a"
+import YA from "../content/Я.m4a"
+
 
 
 function ABC() {
+    function playA() {
+        new Audio(AS).play()
+    }
+    function playA1() {
+        new Audio(A1).play()
+    }
+    function playB() {
+        new Audio(B).play()
+    }
+    function playV() {
+        new Audio(V).play()
+    }
+    function playG() {
+        new Audio(G).play()
+    }
+    function playG1() {
+        new Audio(G1).play()
+    }
+    function playD() {
+        new Audio(D).play()
+    }
+    function playE() {
+        new Audio(E).play()
+    }
+    function playE1() {
+        new Audio(E1).play()
+    }
+    function playZH() {
+        new Audio(ZH).play()
+    }
+    function playZ() {
+        new Audio(Z).play()
+    }
+    function playI() {
+        new Audio(I).play()
+    }
+    function playI1() {
+        new Audio(I1).play()
+    }
+    function playK() {
+        new Audio(K).play()
+    }
+    function playK1() {
+        new Audio(K1).play()
+    }
+    function playL() {
+        new Audio(L).play()
+    }
+    function playM() {
+        new Audio(M).play()
+    }
+    function playN() {
+        new Audio(N).play()
+    }
+    function playN1() {
+        new Audio(N1).play()
+    }
+    function playO() {
+        new Audio(O).play()
+    }
+    function playO1() {
+        new Audio(O1).play()
+    }
+    function playP() {
+        new Audio(P).play()
+    }
+    function playR() {
+        new Audio(R).play()
+    }
+    function playS() {
+        new Audio(S).play()
+    }
+    function playT() {
+        new Audio(T).play()
+    }
+    function playU() {
+        new Audio(U).play()
+    }
+    function playU1() {
+        new Audio(U1).play()
+    }
+    function playU2() {
+        new Audio(U2).play()
+    }
+    function playF() {
+        new Audio(F).play()
+    }
+    function playH1() {
+        new Audio(H1).play()
+    }
+    function playC() {
+        new Audio(C).play()
+    }
+    function playCH() {
+        new Audio(CH).play()
+    }
+    function playSH() {
+        new Audio(SH).play()
+    }
+    function playSH1() {
+        new Audio(SH1).play()
+    }
+    function playH2() {
+        new Audio(H2).play()
+    }
+    function playTvZn() {
+        new Audio(TvZn).play()
+    }
+    function playY() {
+        new Audio(Y).play()
+    }
+    function playY1() {
+        new Audio(Y1).play()
+    }
+    function playMgZn() {
+        new Audio(MgZn).play()
+    }
+    function playAA() {
+        new Audio(AA).play()
+    }
+    function playYU() {
+        new Audio(YU).play()
+    }
+    function playYA() {
+        new Audio(YA).play()
+    }
     return (
+        
         <div className='alphabet'>
-                <audio id='AAA' src={AS} controls></audio>
+                {/* <audio className='AAA' src={AS} controls></audio> */}
 
-                <button className='letter'><Link to="/А"><input className='letter' type="image" src= {А}></input></Link></button>
-                <button className='letter'><Link to="/Ә"><input className='letter' type="image" src= {Ә}></input></Link></button>
-                <button className='letter'><Link to="/Б"><input className='letter' type="image" src= {Б}></input></Link></button>
-                <button className='letter'><Link to="/В"><input className='letter' type="image" src= {В}></input></Link></button>
-                <button className='letter'><Link to="/Г"><input className='letter' type="image" src= {Г}></input></Link></button>
-                <button className='letter'><Link to="/Ғ"><input className='letter' type="image" src= {Г1}></input></Link></button>
-                <button className='letter'><Link to="/Д"><input className='letter' type="image" src= {Д}></input></Link></button>
-                <button className='letter'><Link to="/Е"><input className='letter' type="image" src= {Е}></input></Link></button>
-                <button className='letter'><Link to="/Ё"><input className='letter' type="image" src= {Ё}></input></Link></button>
-                <button className='letter'><Link to="/Ж"><input className='letter' type="image" src= {Ж}></input></Link></button>
-                <button className='letter'><Link to="/З"><input className='letter' type="image" src= {З}></input></Link></button>
-                <button className='letter'><Link to="/И"><input className='letter' type="image" src= {И}></input></Link></button>
-                <button className='letter'><Link to="/Й"><input className='letter' type="image" src= {Й}></input></Link></button>
-                <button className='letter'><Link to="/К"><input className='letter' type="image" src= {К}></input></Link></button>
-                <button className='letter'><Link to="/Қ"><input className='letter' type="image" src= {К1}></input></Link></button>
-                <button className='letter'><Link to="/Л"><input className='letter' type="image" src= {Л}></input></Link></button>
-                <button className='letter'><Link to="/М"><input className='letter' type="image" src= {М}></input></Link></button>
-                <button className='letter'><Link to="/Н"><input className='letter' type="image" src= {Н}></input></Link></button>
-                <button className='letter'><Link to="/Ң"><input className='letter' type="image" src= {Н1}></input></Link></button>
-                <button className='letter'><Link to="/О"><input className='letter' type="image" src= {О}></input></Link></button>
-                <button className='letter'><Link to="/Ө"><input className='letter' type="image" src= {О1}></input></Link></button>
-                <button className='letter'><Link to="/П"><input className='letter' type="image" src= {П}></input></Link></button>
-                <button className='letter'><Link to="/Р"><input className='letter' type="image" src= {Р}></input></Link></button>
-                <button className='letter'><Link to="/С"><input className='letter' type="image" src= {С}></input></Link></button>
-                <button className='letter'><Link to="/Т"><input className='letter' type="image" src= {Т}></input></Link></button>
-                <button className='letter'><Link to="/У"><input className='letter' type="image" src= {У}></input></Link></button>
-                <button className='letter'><Link to="/Ұ"><input className='letter' type="image" src= {У1}></input></Link></button>
-                <button className='letter'><Link to="/Ү"><input className='letter' type="image" src= {У2}></input></Link></button>
-                <button className='letter'><Link to="/Ф"><input className='letter' type="image" src= {Ф}></input></Link></button>
-                <button className='letter'><Link to="/Х"><input className='letter' type="image" src= {Х}></input></Link></button>
-                <button className='letter'><Link to="/Һ"><input className='letter' type="image" src= {H}></input></Link></button>
-                <button className='letter'><Link to="/Ц"><input className='letter' type="image" src= {Ц}></input></Link></button>
-                <button className='letter'><Link to="/Ч"><input className='letter' type="image" src= {Ч}></input></Link></button>
-                <button className='letter'><Link to="/Ш"><input className='letter' type="image" src= {Ш}></input></Link></button>
-                <button className='letter'><Link to="/Щ"><input className='letter' type="image" src= {Щ}></input></Link></button>
-                <button className='letter'><Link to="/Ъ"><input className='letter' type="image" src= {Ъ}></input></Link></button>
-                <button className='letter'><Link to="/Ы"><input className='letter' type="image" src= {Ы}></input></Link></button>
-                <button className='letter'><Link to="/І"><input className='letter' type="image" src= {Ы1}></input></Link></button>
-                <button className='letter'><Link to="/Ь"><input className='letter' type="image" src= {Ь}></input></Link></button>
-                <button className='letter'><Link to="/Э"><input className='letter' type="image" src= {Э}></input></Link></button>
-                <button className='letter'><Link to="/Ю"><input className='letter' type="image" src= {Ю}></input></Link></button>
-                <button className='letter'><Link to="/Я"><input className='letter' type="image" src= {Я}></input></Link></button>
+                <button className='letter' onClick={playA}><input className='letter' type="image" src= {А}></input></button>
+                <button className='letter' onClick={playA1}><input className='letter' type="image" src= {Ә}></input></button>
+                <button className='letter' onClick={playB}><input className='letter' type="image" src= {Б}></input></button>
+                <button className='letter' onClick={playV}><input className='letter' type="image" src= {В}></input></button>
+                <button className='letter' onClick={playG}><input className='letter' type="image" src= {Г}></input></button>
+                <button className='letter' onClick={playG1}><input className='letter' type="image" src= {Г1}></input></button>
+                <button className='letter' onClick={playD}><input className='letter' type="image" src= {Д}></input></button>
+                <button className='letter' onClick={playE}><input className='letter' type="image" src= {Е}></input></button>
+                <button className='letter' onClick={playE1}><input className='letter' type="image" src= {Ё}></input></button>
+                <button className='letter' onClick={playZH}><input className='letter' type="image" src= {Ж}></input></button>
+                <button className='letter' onClick={playZ}><input className='letter' type="image" src= {З}></input></button>
+                <button className='letter' onClick={playI}><input className='letter' type="image" src= {И}></input></button>
+                <button className='letter' onClick={playI1}><input className='letter' type="image" src= {Й}></input></button>
+                <button className='letter' onClick={playK}><input className='letter' type="image" src= {К}></input></button>
+                <button className='letter' onClick={playK1}><input className='letter' type="image" src= {К1}></input></button>
+                <button className='letter' onClick={playL}><input className='letter' type="image" src= {Л}></input></button>
+                <button className='letter' onClick={playM}><input className='letter' type="image" src= {М}></input></button>
+                <button className='letter' onClick={playN}><input className='letter' type="image" src= {Н}></input></button>
+                <button className='letter' onClick={playN1}><input className='letter' type="image" src= {Н1}></input></button>
+                <button className='letter' onClick={playO}><input className='letter' type="image" src= {О}></input></button>
+                <button className='letter' onClick={playO1}><input className='letter' type="image" src= {О1}></input></button>
+                <button className='letter' onClick={playP}><input className='letter' type="image" src= {П}></input></button>
+                <button className='letter' onClick={playR}><input className='letter' type="image" src= {Р}></input></button>
+                <button className='letter' onClick={playS}><input className='letter' type="image" src= {С}></input></button>
+                <button className='letter' onClick={playT}><input className='letter' type="image" src= {Т}></input></button>
+                <button className='letter' onClick={playU}><input className='letter' type="image" src= {У}></input></button>
+                <button className='letter' onClick={playU1}><input className='letter' type="image" src= {У1}></input></button>
+                <button className='letter' onClick={playU2}><input className='letter' type="image" src= {У2}></input></button>
+                <button className='letter' onClick={playF}><input className='letter' type="image" src= {Ф}></input></button>
+                <button className='letter' onClick={playH1}><input className='letter' type="image" src= {Х}></input></button>
+                <button className='letter' onClick={playC}><input className='letter' type="image" src= {Ц}></input></button>
+                <button className='letter' onClick={playCH}><input className='letter' type="image" src= {Ч}></input></button>
+                <button className='letter' onClick={playSH}><input className='letter' type="image" src= {Ш}></input></button>
+                <button className='letter' onClick={playSH1}><input className='letter' type="image" src= {Щ}></input></button>
+                <button className='letter' onClick={playH2}><input className='letter' type="image" src= {H}></input></button>
+                <button className='letter' onClick={playTvZn}><input className='letter' type="image" src= {Ъ}></input></button>
+                <button className='letter' onClick={playY}><input className='letter' type="image" src= {Ы}></input></button>
+                <button className='letter' onClick={playY1}><input className='letter' type="image" src= {Ы1}></input></button>
+                <button className='letter' onClick={playMgZn}><input className='letter' type="image" src= {Ь}></input></button>
+                <button className='letter' onClick={playAA}><input className='letter' type="image" src= {Э}></input></button>
+                <button className='letter' onClick={playYU}><input className='letter' type="image" src= {Ю}></input></button>
+                <button className='letter' onClick={playYA}><input className='letter' type="image" src= {Я}></input></button>
         </div>
     )
 }

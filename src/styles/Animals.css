@@ -1,0 +1,18 @@
+.animal{
+    width: 150px;
+    height: 150px;
+    border-radius: 52px;
+    border: none;
+
+ }
+ .zoo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 85px;
+ }

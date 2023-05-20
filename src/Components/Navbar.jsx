@@ -7,9 +7,11 @@ import logo from "../content/logo.png"
 function Navbar() {
     return (
             <div className='navbar'>
-                <div className="logo">
+                <div className="logo" style={{display: "flex", alignItems: "center"}}>
                 <img src={logo}></img>
-                <h2>Damu Kid</h2>
+                <button className='name' style={{border: "none", backgroundColor: '#', fontWeight:"bold", fontSize: 30, }}>
+                    <Link to="/">Damu Kids</Link>
+                    </button>
                 </div>
                 <div style={{ fontWeight:"bold"}} className='navbar__list'>
                     <ul>
